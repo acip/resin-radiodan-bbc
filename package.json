@@ -1,0 +1,18 @@
+{
+  "name": "resin-radiodan-bbc",
+  "description": "BBC Radiodan Resin App",
+
+  "scripts": {
+    "preinstall": "bash deps.sh",
+    "prestart": "bash prerun.sh"
+  },
+
+  "version": "0.0.1",
+  "dependencies": {
+    "radiodan": "radiodan/radiodan.js",
+    "radiodan-web-client": "radiodan/client-web-example"
+  },
+  "engines": {
+      "node": "0.10.22"
+  }
+}

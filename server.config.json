@@ -1,0 +1,21 @@
+{
+  "dataPath": "/tmp/.radiodan",
+  "defaults": {
+    "music": "/home/adminuser/Downloads/radiodan-app2/media/music"
+  },
+  "players": [
+    {
+      "name": "Main",
+      "id": "main"
+    },
+    {
+      "name": "Avoider",
+      "id": "avoider"
+    },
+    {
+      "name": "Announcer",
+      "id": "announcer",
+      "music": "/home/adminuser/Downloads/radiodan-app2/audio"
+    }
+  ]
+}
